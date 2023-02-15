@@ -1,0 +1,70 @@
+/* Global CSS  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+  }
+.global-btn{
+    width: 150px;
+    height: 55px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    margin-top: 25px;
+}
+.global-btn a{
+    text-decoration: none;
+    color: white;
+
+}
+.global-section{
+    padding: 3rem 0;
+}
+.global-section h2{
+    font-size: 3rem;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.global-section p{
+    color: #7B7B7B;
+    text-align: center;
+}
+/* This is Header Section  */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    background: rgba(0,0,0,0.3);
+    color: white;
+}
+header h2{
+    padding-left:45px;
+}
+nav{
+    align-items: center;
+}
+nav ul li{
+    display: inline;
+    margin-right: 50px;
+}
+/* Frist Section  */
+.frist-section{
+    height: 94vh;
+    width: 100%;
+    text-align: center;
+    background-image: url(./images/intro-bg.jpg);
+    background-size: cover;
+
+  
+    padding: 8rem 0;
+}
+.frist-section p{
+    font-size: 25px;
+}
+.frist-section h2{
+    font-size: 75px;
+    margin: 10px 0;
+}
+
